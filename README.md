@@ -2,6 +2,8 @@
 
 A modern web application for booking appointments with counseling psychologists. The app provides a seamless, accessible interface for users to view available psychologists, book sessions, and manage their appointments.
 
+**Integration:** Appointment scheduling is powered by [Cal.com](https://cal.com), allowing users to easily select available time slots and receive booking confirmations.
+
 ---
 
 ## Features
@@ -13,6 +15,7 @@ A modern web application for booking appointments with counseling psychologists.
 - Accessible design and ARIA support
 - Dynamic content rendering with reusable components
 - End-to-end testing with Playwright
+- **Cal.com integration for appointment scheduling**
 
 ---
 
@@ -23,6 +26,7 @@ A modern web application for booking appointments with counseling psychologists.
 - **JavaScript (ES6+)**: SPA logic, routing, and UI components
 - **Playwright & @playwright/test**: Automated end-to-end testing
 - **Node.js & npm**: Dependency management and scripts
+- **Cal.com**: Embedded scheduling for appointments
 - **VS Code**: Recommended for development
 - **[serve](https://www.npmjs.com/package/serve)**: For running a local static server (optional, for SPA routing)
 
@@ -52,8 +56,8 @@ tests/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/msyoki/Cal.com-Inspired-Event-Scheduling-App.git
-   cd Cal.com-Inspired-Event-Scheduling-App
+   git clone https://github.com/your-username/Counseling_Psychologist_Booking_App.git
+   cd Counseling_Psychologist_Booking_App-master
    ```
 
 2. **Install dependencies:**
@@ -107,6 +111,7 @@ Test files are located in the `tests/` directory. See `playwright.config.js` for
 2. Browse the list of psychologists and available services.
 3. Book an appointment or send a contact request.
 4. Manage your bookings from the dashboard.
+5. Schedule appointments using the integrated Cal.com calendar.
 
 ---
 
