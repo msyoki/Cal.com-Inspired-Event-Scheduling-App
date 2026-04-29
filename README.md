@@ -52,8 +52,8 @@ tests/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/Counseling_Psychologist_Booking_App.git
-   cd Counseling_Psychologist_Booking_App-master
+   git clone https://github.com/msyoki/Cal.com-Inspired-Event-Scheduling-App.git
+   cd Cal.com-Inspired-Event-Scheduling-App
    ```
 
 2. **Install dependencies:**
